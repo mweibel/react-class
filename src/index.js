@@ -1,17 +1,12 @@
-"use strict";
-
-var React = require('react')
-var autoBind = require('../autoBind')
+var React = require('react');
+var autoBind = require('../autoBind');
 
 class ReactClass extends React.Component {
-  constructor(props){
-    super(props)
-    autoBind(this)
+  constructor(props) {
+    super(props);
+    autoBind(this);
   }
 }
 
-export default ReactClass
-export {
-  autoBind,
-  ReactClass as Component
-}
+export default ReactClass;
+export { autoBind, ReactClass as Component };

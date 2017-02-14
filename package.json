@@ -1,6 +1,6 @@
 {
   "name": "@zippytech/react-class",
-  "version": "4.0.2",
+  "version": "4.0.3",
   "description": "A carefully crafted base class for all your React components ",
   "main": "lib/index.js",
   "repository": {
