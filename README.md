@@ -90,4 +90,4 @@ We're not doing anything magical!
 
 ## LICENSE
 
-#### Apache2
+#### [Apache2](./LICENSE)

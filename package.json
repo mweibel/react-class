@@ -1,26 +1,26 @@
 {
   "name": "@zippytech/react-class",
-  "version": "4.0.1",
+  "version": "4.0.2",
   "description": "A carefully crafted base class for all your React components ",
   "main": "lib/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/zippytech/react-class.git"
   },
+  "author": "Zippy Technologies <contact@zippyui.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/zippytech/react-class/issues"
+  },
+  "homepage": "https://github.com/zippytech/react-class",
   "keywords": [
     "react",
     "class",
     "component",
     "react-component",
-    "base",
-    "bind"
+    "bind",
+    "autobind"
   ],
-  "author": "Zippy Technologies <contact@zippyui.com>",
-  "license": "Apache2",
-  "bugs": {
-    "url": "https://github.com/zippytech/react-class/issues"
-  },
-  "homepage": "https://github.com/zippytech/react-class",
   "scripts": {
     "test": "ava",
     "lib": "rimraf lib && babel --out-dir lib src",
@@ -48,9 +48,6 @@
   "peerDependencies": {
     "react": ">=0.14.0 || >=15.0.0-0",
     "react-dom": ">=0.14.0 || >=15.0.0-0"
-  },
-  "dependencies": {
-    "object-assign": "^4.1.1"
   },
   "ava": {
     "source": [
