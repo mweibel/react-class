@@ -33,3 +33,5 @@ index.jsx
 __tests__
 .history
 src
+.npmignore
+.babelrc
